@@ -3,9 +3,11 @@ syntax enable    "highlight code
 filetype plugin indent on  " auto detection type of file and whitespaces depends on type of file
 scriptencoding utf-8  " all scripts in utf-8
 set encoding=utf8     " utf-8 for this file
+
 set nobackup         " no backup
 set nowritebackup    " no backup
 set noswapfile      " no backup
+
 set number           " numbers like in IDE
 set cursorline       " cool colorful columns
 set nowrap            " no line break(in one line)
