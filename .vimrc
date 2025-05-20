@@ -35,6 +35,7 @@ set laststatus=2   " constant status line
 set termguicolors   " true colors
 set history=500     " Sets how many lines of history VIM has to remember
 set ttimeoutlen=10   " how long wait for esc
+set matchtime=1  " how long highlight will be after cursor leaves
 nnoremap <C-w>  <C-u>
 nnoremap <C-u>  <Nop>
 
