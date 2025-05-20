@@ -42,7 +42,7 @@ nnoremap <C-u>  <Nop>
 call plug#begin("~/.vim/plugged/")
 Plug 'sheerun/vim-polyglot'
 call plug#end()
-colorscheme retrobox " pick theme that you want i like this
+colorscheme retrobox  " pick theme that you want i like this
 let &t_SI = "\e[6 q"
 let &t_EI = "\e[2 q"
 let &t_SR = "\e[4 q"
