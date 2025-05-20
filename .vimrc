@@ -9,7 +9,7 @@ set nowritebackup    " no backup
 set noswapfile      " no backup
 
 set number           " numbers like in IDE
-" set cursorline       " cool colorful columns
+" set cursorline       " cool colorful columns(required theme)
 set nowrap            " no line break(in one line)
 set belloff=all        " no bell
 set noerrorbells       " no bell
