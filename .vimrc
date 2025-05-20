@@ -1,5 +1,4 @@
-" Vim-plug required: curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
-"    https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
+" Vim-plug required: https://github.com/junegunn/vim-plug
 syntax on    "highlight code
 filetype plugin indent on  " auto detection type of file and whitespaces depends on type of file
 scriptencoding utf-8  " all scripts in utf-8
