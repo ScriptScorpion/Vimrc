@@ -28,7 +28,7 @@ set noswapfile      " no backup
 set virtualedit=block  " in visual mode you can go further(you can set, all ,if you want to edit as far as you want in any mode)
 set nobackup       " no backup
 set nowritebackup  " no backup
-set lazydrew     " good for perfomance
+set lazyredraw     " good for perfomance
 set shortmess+=I  " no startup message
 set statusline=%f  " shows you status
 set laststatus=2   " constant status line
