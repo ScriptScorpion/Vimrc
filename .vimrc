@@ -9,7 +9,7 @@ set nowritebackup    " no backup
 set noswapfile      " no backup
 
 set number           " numbers like in IDE
-set cursorline       " cool colorful columns
+" set cursorline       " cool colorful columns
 set nowrap            " no line break(in one line)
 set belloff=all        " no bell
 set noerrorbells       " no bell
@@ -43,7 +43,7 @@ nnoremap <C-u>  <Nop>
 call plug#begin("~/.vim/plugged/")
 Plug 'sheerun/vim-polyglot'
 call plug#end()
-colorscheme retrobox  " pick theme that you want i like this
+" colorscheme pick theme that you want
 let &t_SI = "\e[6 q"
 let &t_EI = "\e[2 q"
 let &t_SR = "\e[4 q"
