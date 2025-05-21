@@ -36,6 +36,7 @@ set termguicolors   " true colors
 set history=500     " Sets how many lines of history VIM has to remember
 set ttimeoutlen=10   " how long wait for esc
 set matchtime=1  " how long highlight will be after cursor leaves
+" if you doing often split windows don't use my remap
 nnoremap <C-w>  <C-u>
 nnoremap <C-u>  <Nop>
 " you can add this too if you want: set showcmd - typed commands; set t_Co=256 - tell vim that the terminal has 256 colors; set autoread - read when file is changed. 
