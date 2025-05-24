@@ -43,6 +43,7 @@ nnoremap <C-u>  <Nop>
 
 call plug#begin("~/.vim/plugged/")
 Plug 'sheerun/vim-polyglot'
+" if using gentoo Plug 'gentoo/gentoo-syntax'
 call plug#end()
 " colorscheme pick theme that you want
 let &t_SI = "\e[6 q"
