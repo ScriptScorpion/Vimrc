@@ -39,7 +39,7 @@ set matchtime=1  " how long highlight will be after cursor leaves
 " if you doing often split windows don't use my remap
 nnoremap <C-w>  <C-u>
 nnoremap <C-u>  <Nop>
-" you can add this too if you want: set showcmd - typed commands; set t_Co=256 - tell vim that the terminal has 256 colors; set autoread - read when file is changed. 
+" you can add this too if you want: set showcmd - typed commands; set t_Co=256 - tell vim that the terminal has 256 colors; set autoread - read if file is changed. 
 
 call plug#begin("~/.vim/plugged/")
 Plug 'sheerun/vim-polyglot'
