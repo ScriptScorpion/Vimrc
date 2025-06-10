@@ -43,6 +43,8 @@ nnoremap <C-u>  <Nop>
 
 call plug#begin("~/.vim/plugged/")
 Plug 'sheerun/vim-polyglot'
+Plug 'octol/vim-cpp-enhanced-highlight'
+" auto completion Plug 'Valloric/YouCompleteMe' 
 " if using gentoo Plug 'gentoo/gentoo-syntax'
 call plug#end()
 " colorscheme pick theme that you want
