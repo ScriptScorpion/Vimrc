@@ -16,6 +16,7 @@ set noerrorbells       " no bell
 set novisualbell       " no bell
 set expandtab        " use spaces instead of tabs
 set smarttab           " smarter placment
+set autoindent        " new line with space as previous line
 set tabstop=4        " how wide tab
 set softtabstop=4     " how wide tab
 set shiftwidth=4      " how wide tab
