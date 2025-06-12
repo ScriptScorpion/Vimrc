@@ -45,6 +45,7 @@ nnoremap <C-u>  <Nop>
 call plug#begin("~/.vim/plugged/")
 Plug 'sheerun/vim-polyglot'
 Plug 'octol/vim-cpp-enhanced-highlight'
+Plug 'ervandew/supertab'
 " auto completion Plug 'Valloric/YouCompleteMe' 
 " if using gentoo Plug 'gentoo/gentoo-syntax'
 call plug#end()
