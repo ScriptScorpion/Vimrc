@@ -1,4 +1,5 @@
 " Vim-plug required: https://github.com/junegunn/vim-plug
+let fortran_free_source=1 " Fortran syntax highlighting fixed
 syntax enable    "highlight code
 filetype plugin indent on  " auto detection type of file and whitespaces depends on type of file
 scriptencoding utf-8  " all scripts in utf-8
