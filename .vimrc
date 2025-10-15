@@ -38,6 +38,7 @@ set termguicolors   " true colors
 set history=500     " Sets how many lines of history VIM has to remember
 set ttimeoutlen=10   " how long wait for esc
 set matchtime=1  " how long highlight will be after cursor leaves
+set whichwrap+=<,>,h,l,[,]   " set that so vim behaves like normal editor and goes to the next lines instead of not moving
 " if you doing often split windows don't use my remap
 nnoremap <C-w>  <C-u>
 nnoremap <C-u>  <Nop>
