@@ -10,6 +10,7 @@ set nowritebackup    " no backup
 set noswapfile      " no backup
 
 set number           " numbers like in IDE
+set mouse=a         " mouse text selection turned on
 " set cursorline       " cool colorful columns(required theme)
 set nowrap            " no line break(in one line)
 set belloff=all        " no bell
